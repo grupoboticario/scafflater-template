@@ -14,6 +14,7 @@
 <!-- @scf-config { "appendStrategy": "replace" } -->
 
 {{#each template.partials}}
+
 ## {{this.name}}
 
 ```
@@ -27,6 +28,7 @@ DESCRIPTION
   {{this.description}}
 ```
 
+{{#if this.parameters}}
 <div class="mobile-side-scroller">
 <table>
   <thead>
@@ -49,6 +51,9 @@ DESCRIPTION
   </tbody>
 </table>
 </div>
+{{/if}}
+
 {{/each}}
+
 
 <!-- @end-scf-region -->

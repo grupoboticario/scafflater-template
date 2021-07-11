@@ -1,6 +1,6 @@
 {
   "type": "partial",
-  "name": "partial",
+  "name": "add-partial",
   "description": "Add a new partial the template",
   "parameters": [
     {
