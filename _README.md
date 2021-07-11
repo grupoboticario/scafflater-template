@@ -1,4 +1,4 @@
-<!-- @scf-option {"targetName": "README.md"} -->
+<!-- @scf-config {"targetName": "README.md"} -->
 {{parameters.name}}
 ===
 

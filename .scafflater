@@ -22,7 +22,7 @@
     {
       "type": "input",
       "name": "name",
-      "message": "What is the name of the template??",
+      "message": "What is the name of the template?",
       "regex": "[a-z][a-z-]{3,}"
     },
     {
