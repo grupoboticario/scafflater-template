@@ -18,4 +18,7 @@ $ scafflater-cli init https://github.com/OWNWE/REPO
 
 # Partials
 <!-- @scf-region partials-menu -->
+
+run `scafflater-cli partial:run README.md` to generate the partials documentation
+
 <!-- @end-scf-region -->

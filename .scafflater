@@ -27,7 +27,7 @@
     },
     {
       "type": "input",
-      "name": "Description",
+      "name": "description",
       "message": "What`s the description for your template?"
     }
   ]
