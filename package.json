@@ -1,0 +1,24 @@
+{
+  "name": "scafflater-template",
+  "version": "1.0.0",
+  "description": "An Scafflater template to generate Scafflater templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicoribas/scafflater-template.git"
+  },
+  "keywords": [
+    "scaffalter",
+    "templater",
+    "scaffold"
+  ],
+  "author": "chicoribas (chico.bribas@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chicoribas/scafflater-template/issues"
+  },
+  "homepage": "https://github.com/chicoribas/scafflater-template#readme"
+}

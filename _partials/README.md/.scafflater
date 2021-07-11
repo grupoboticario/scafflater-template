@@ -1,0 +1,6 @@
+{
+  "type": "partial",
+  "name": "README.md",
+  "description": "Update the README.md file to update available partials",
+  "parameters": []
+}
