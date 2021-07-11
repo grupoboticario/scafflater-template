@@ -1,13 +1,18 @@
+[comment]: # (@scf-config  { "lineCommentTemplate": "<!-- {{comment}} -->" })
+
 <!-- @scf-region partials-menu -->
 <!-- @scf-config { "appendStrategy": "replace" } -->
+
 {{#each template.partials}}
   * [{{this.name}}](#{{this.name}})
 {{/each}}
+
 <!-- @end-scf-region -->
 
 
 <!-- @scf-region partials -->
 <!-- @scf-config { "appendStrategy": "replace" } -->
+
 {{#each template.partials}}
 ## {{this.name}}
 
@@ -37,7 +42,7 @@ DESCRIPTION
         <p><code>{{this.name}}</code></p>
       </td>
       <td>
-        <p>{{this.description}}</p>
+        <p>{{this.message}}</p>
       </td>
     </tr>
   {{/each}}
