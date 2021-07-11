@@ -4,19 +4,6 @@
   "name": "scafflater-template",
   "description": "An Scafflater template to generate Scafflater templates",
   "version": "0.0.1",
-  "template": {
-    // The template of this template is himself
-    "name": "scafflater-template",
-    "version": "0.0.1",
-    "source": {
-      "name": "github",
-      "key": "https://github.com/chicoribas/scafflater-template",
-      "github": {
-        "baseUrl": "https://github.com",
-        "baseUrlApi": "https://api.github.com"
-      }
-    }
-  },
   "config": {},
   "parameters": [
     {
