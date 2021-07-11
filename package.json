@@ -1,8 +1,7 @@
 {
-  "name": "scafflater-template",
+  "name": "{{parameters.name}}",
   "version": "1.0.0",
-  "description": "An Scafflater template to generate Scafflater templates",
-  "main": "index.js",
+  "description": "{{parameters.description}}",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +10,7 @@
     "url": "git+https://github.com/chicoribas/scafflater-template.git"
   },
   "keywords": [
-    "scaffalter",
+    "scafflater",
     "templater",
     "scaffold"
   ],
