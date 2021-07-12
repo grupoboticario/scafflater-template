@@ -2,5 +2,8 @@
   "type": "partial",
   "name": "update-readme",
   "description": "Update the README.md file to update available partials",
-  "parameters": []
+  "parameters": [],
+  "options": {
+    "logRun": false
+  }
 }
