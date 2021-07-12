@@ -33,3 +33,6 @@ run `scafflater-cli partial:run update-readme` to generate the partials document
 run `scafflater-cli partial:run update-readme` to generate the partials documentation
 
 <!-- @end-scf-region -->
+
+---
+> This template was generate using [Scafflater](https://github.com/chicoribas/scafflater)
