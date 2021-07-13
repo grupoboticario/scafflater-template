@@ -1,4 +1,4 @@
-<!-- @scf-option {"ignore": true} -->
+<!-- @scf-config {"ignore": true} -->
 Scafflater Template
 ===
 
