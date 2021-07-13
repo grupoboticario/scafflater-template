@@ -1,4 +1,3 @@
-console.log('Current directory: ' + process.cwd());
 const glob = require('glob')
 const fs = require('fs')
 const stripJsonComments = require('strip-json-comments')

@@ -3,7 +3,7 @@
 <!-- @scf-region partials-menu -->
 <!-- @scf-config { "appendStrategy": "replace" } -->
 
-{{#each template.partials}}
+{{#each partials}}
   * [{{this.name}}](#{{this.name}})
 {{/each}}
 
@@ -13,7 +13,7 @@
 <!-- @scf-region partials -->
 <!-- @scf-config { "appendStrategy": "replace" } -->
 
-{{#each template.partials}}
+{{#each partials}}
 
 ## {{this.name}}
 
