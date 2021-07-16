@@ -1,4 +1,4 @@
-// @scf-config {"ignore": true}
+// @scf-option {"ignore": true}
 {
   "type": "template",
   "name": "scafflater-template",

@@ -1,4 +1,4 @@
-// @scf-config { "targetName": ".scafflater" }
+// @scf-option { "targetName": ".scafflater" }
 {
   "type": "partial",
   "name": "{{parameters.name}}",

@@ -1,7 +1,7 @@
-<!-- @scf-config { "targetName": "README.md" } -->
-<!-- @scf-config { "appenders": ["./appenders/appender"] } -->
-<!-- @scf-config { "appendStrategy": "replace" } -->
-[comment]: # (@scf-config  { "lineCommentTemplate": "<!-- {{comment}} -->" })
+<!-- @scf-option { "targetName": "README.md" } -->
+<!-- @scf-option { "appenders": ["./appenders/appender"] } -->
+<!-- @scf-option { "appendStrategy": "replace" } -->
+[comment]: # (@scf-option  { "lineCommentTemplate": "<!-- {{comment}} -->" })
 
 {{parameters.name}}
 ===

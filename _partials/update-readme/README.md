@@ -1,7 +1,7 @@
-[comment]: # (@scf-config  { "lineCommentTemplate": "<!-- {{comment}} -->" })
+[comment]: # (@scf-option  { "lineCommentTemplate": "<!-- {{comment}} -->" })
 
 <!-- @scf-region partials-menu -->
-<!-- @scf-config { "appendStrategy": "replace" } -->
+<!-- @scf-option { "appendStrategy": "replace" } -->
 
 {{#each partials}}
   * [{{this.name}}](#{{this.name}})
@@ -11,7 +11,7 @@
 
 
 <!-- @scf-region partials -->
-<!-- @scf-config { "appendStrategy": "replace" } -->
+<!-- @scf-option { "appendStrategy": "replace" } -->
 
 {{#each partials}}
 
