@@ -16,8 +16,12 @@
 ```sh-session
 $ npm install -g scafflater-cli
 
+{{#if git.remote.origin.url}}
+$ scafflater-cli init {{git.html_url}}
+{{else}}
 # REPLACE GITHUB REPO IN THE FOLLOWING LINE TO YOUR REPO ADDRESS
 $ scafflater-cli init https://github.com/OWNWE/REPO
+{{/if}}
 ```
 
 # Partials
