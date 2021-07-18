@@ -1,0 +1,29 @@
+<!--@scf-option  { "targetName": "package.json" } -->
+
+{
+  "name": "{{parameters.name}}",
+  "version": "1.0.0",
+  "description": "{{parameters.description}}",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scafflater",
+    "templater",
+    "scaffold"
+  ],
+  "license": "MIT",
+  {{#if gitUser}}
+  "author": "{{gitUser.user.name}} ({{gitUser.user.email}})",
+  {{/if}}
+  {{#if git}}
+    "repository": {
+      "type": "git",
+      "url": "git+{{git.remote.origin.url}}"
+    },
+    "bugs": {
+      "url": "{{git.bugs_url}}"
+    },
+    "homepage": "{{git.home_url}}"
+  {{/if}}
+}

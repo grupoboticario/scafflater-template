@@ -1,14 +1,19 @@
-const onGenerateStart = require('./onGenerateStart')
-const path = require('path')
+const onGenerateStart = require('./onGenerateStart');
+const path = require('path');
 
 test('Load Partial', async () => {
   // ARRANGE
-  const context = { targetPath: path.resolve(__dirname, '..') }
+  const context = { targetPath: path.resolve(__dirname, '..') };
 
   // ACT
-  const result = await onGenerateStart(context)
+  await onGenerateStart(context);
 
   // ASSERT
-  expect(result.partials.length).toBeGreaterThan(0)
-
-})
+  expect(context.partials.length).toBeGreaterThan(0);
+  expect(context.git.remote.origin.url).toBe(
+    'https://github.com/chicoribas/scafflater-template.git'
+  );
+  expect(context.git.html_url).toBe(
+    'https://github.com/chicoribas/scafflater-template'
+  );
+});

@@ -1,0 +1,12 @@
+{
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "*.json.hbs",
+      "options": {
+        "singleQuote": false,
+        "parser": "json"
+      }
+    }
+  ]
+}
