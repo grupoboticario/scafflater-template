@@ -5,7 +5,6 @@
   "description": "{{parameters.description}}",
   "version": "1.0.0",
   "template": {
-    // The template of this template is himself
     "name": "scafflater-template",
     "version": "0.0.1",
     "source": {

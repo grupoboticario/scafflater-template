@@ -1,29 +1,43 @@
-// @scf-option {"ignore": true}
 {
-  "type": "template",
-  "name": "scafflater-template",
-  "description": "An Scafflater template to generate Scafflater templates",
-  "version": "0.0.1",
-  "options": {
-    "ignore" : [
-      ".git",
-      "node_modules",
-      "package-lock.json",
-      "**/*.test.js",
-      "/package.json"
+  "template": {
+    "name": "scafflater-template",
+    "description": "An Scafflater template to generate Scafflater templates",
+    "version": "0.0.1",
+    "options": {
+      "ignore": [
+        ".git",
+        "node_modules",
+        "package-lock.json",
+        "**/*.test.js",
+        "/package.json"
+      ]
+    },
+    "parameters": [
+      {
+        "type": "input",
+        "name": "name",
+        "message": "What is the name of the template?",
+        "regex": "[a-z][a-z-]{3,}"
+      },
+      {
+        "type": "input",
+        "name": "description",
+        "message": "What`s the description for your template?"
+      }
     ]
   },
-  "parameters": [
+  "templates": [
     {
-      "type": "input",
-      "name": "name",
-      "message": "What is the name of the template?",
-      "regex": "[a-z][a-z-]{3,}"
-    },
-    {
-      "type": "input",
-      "name": "description",
-      "message": "What`s the description for your template?"
+      "name": "scafflater-template",
+      "version": "0.0.1",
+      "source": {
+        "name": "github",
+        "key": "https://github.com/chicoribas/scafflater-template",
+        "options": {
+          "baseUrl": "https://github.com",
+          "baseUrlApi": "https://api.github.com"
+        }
+      }
     }
   ]
 }

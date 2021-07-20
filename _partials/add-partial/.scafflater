@@ -1,18 +1,19 @@
 {
-  "type": "partial",
-  "name": "add-partial",
-  "description": "Add a new partial the template",
-  "parameters": [
-    {
-      "type": "input",
-      "name": "name",
-      "message": "Name",
-      "regex": "[a-z0-9-]+"
-    },
-    {
-      "type": "input",
-      "name": "description",
-      "message": "Description"
-    }
-  ]
+  "partial": {
+    "name": "add-partial",
+    "description": "Add a new partial the template",
+    "parameters": [
+      {
+        "type": "input",
+        "name": "name",
+        "message": "Name",
+        "regex": "[a-z0-9-]+"
+      },
+      {
+        "type": "input",
+        "name": "description",
+        "message": "Description"
+      }
+    ]
+  }
 }
