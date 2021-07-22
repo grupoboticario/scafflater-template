@@ -1,7 +1,7 @@
 {
   "partial": {
     "name": "update-readme",
-    "description": "Update the README.md file to refresh partials section",
+    "description": "Update partials section of the README.md file",
     "parameters": [],
     "options": {
       "logRun": false
