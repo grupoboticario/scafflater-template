@@ -36,7 +36,7 @@ function loadPartialsOnTarget(context) {
               stripJsonComments(fs.readFileSync(file).toString())
             );
             if (info.partial) {
-              context.partials.push(info);
+              context.partials.push(info.partial);
             }
           } catch (e) {
             continue;
