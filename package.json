@@ -14,6 +14,10 @@
     "templater",
     "scaffold"
   ],
+  "workspaces": [
+    "hooks",
+    "helpers"
+  ],
   "author": "chicoribas (chico.bribas@gmail.com)",
   "license": "MIT",
   "bugs": {

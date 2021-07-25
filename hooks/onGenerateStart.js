@@ -35,7 +35,7 @@ function loadPartialsOnTarget(context) {
             const info = JSON.parse(
               stripJsonComments(fs.readFileSync(file).toString())
             );
-            if (info.type === 'partial') {
+            if (info.partial) {
               context.partials.push(info);
             }
           } catch (e) {

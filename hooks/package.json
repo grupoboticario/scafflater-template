@@ -1,4 +1,5 @@
 {
+  "name": "scafflater-template-hooks",
   "dependencies": {
     "git-config-path": "^2.0.0",
     "glob": "^7.1.7",

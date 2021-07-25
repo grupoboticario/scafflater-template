@@ -1,4 +1,5 @@
 <!--@scf-option  { "targetName": "package.json" } -->
+<!--@scf-option  { "appenders": ["./appenders/json-appender"] } -->
 
 {
   "name": "{{parameters.name}}",
@@ -11,6 +12,10 @@
     "scafflater",
     "templater",
     "scaffold"
+  ],
+  "workspaces": [
+    "hooks",
+    "helpers"
   ],
   "license": "MIT",
   {{#if gitUser}}
