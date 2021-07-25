@@ -17,11 +17,13 @@
     "hooks",
     "helpers"
   ],
-  "license": "MIT",
+  "license": "MIT"
   {{#if gitUser}}
-  "author": "{{gitUser.user.name}} ({{gitUser.user.email}})",
+  ,
+  "author": "{{gitUser.user.name}} ({{gitUser.user.email}})"
   {{/if}}
   {{#if git.remote.origin.url}}
+  ,
     "repository": {
       "type": "git",
       "url": "git+{{git.remote.origin.url}}"
