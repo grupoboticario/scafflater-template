@@ -1,21 +1,22 @@
 // @scf-option {"targetName": ".scafflater"}
 {
-  "type": "template",
-  "name": "{{parameters.name}}",
-  "description": "{{parameters.description}}",
-  "version": "1.0.0",
   "template": {
-    "name": "scafflater-template",
-    "version": "0.0.1",
-    "source": {
-      "name": "github",
-      "key": "https://github.com/chicoribas/scafflater-template",
-      "github": {
-        "baseUrl": "https://github.com",
-        "baseUrlApi": "https://api.github.com"
+    "name": "{{parameters.name}}",
+    "description": "{{parameters.description}}",
+    "version": "1.0.0",
+    "template": {
+      "name": "scafflater-template",
+      "version": "0.0.1",
+      "source": {
+        "name": "github",
+        "key": "https://github.com/chicoribas/scafflater-template",
+        "github": {
+          "baseUrl": "https://github.com",
+          "baseUrlApi": "https://api.github.com"
+        }
       }
-    }
-  },
-  "config": {},
-  "parameters": []
+    },
+    "config": {},
+    "parameters": []
+  }
 }

@@ -3,11 +3,10 @@
 [comment]: # '@scf-option  { "appendStrategy": "replace" }'
 [comment]: # '@scf-option  { "lineCommentTemplate": "<!-- {{comment}} -->" }'
 
-# {{parameters.name}}
+# {{parameters.name}} <!-- omit in toc -->
 
 {{parameters.description}}
 
-- [{{parameters.name}}](#parametersname)
 - [Initialize Template](#initialize-template)
 - [Partials](#partials)
 
