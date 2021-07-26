@@ -1,6 +1,4 @@
-<!-- @scf-option {"ignore": true} -->
-
-# Scafflater Template <!-- omit in toc -->
+# Scafflater Template
 
 An Scafflater template to generate Scafflater templates
 
@@ -20,10 +18,8 @@ $ scafflater-cli init https://github.com/chicoribas/scafflater-template
 
 <!-- @scf-region partials-menu -->
 
-- [Initialize Template](#initialize-template)
-- [Partials](#partials)
-  - [add-partial](#add-partial)
-  - [update-readme](#update-readme)
+- [add-partial](#add-partial)
+- [update-readme](#update-readme)
 
 <!-- @end-scf-region -->
 
