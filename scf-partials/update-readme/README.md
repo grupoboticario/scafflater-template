@@ -1,21 +1,21 @@
-[comment]: # (@scf-option  { "lineCommentTemplate": "<!-- {{comment}} -->" })
+[comment]: # '@scf-option  { "lineCommentTemplate": "<!-- {{comment}} -->" }'
 
 <!-- @scf-region partials-menu -->
 <!-- @scf-option { "appendStrategy": "replace" } -->
 
 {{#each partials}}
-  * [{{this.name}}](#{{this.name}})
-{{/each}}
+
+- [{{case "noCaseAndTitle" this.name}}](#{{this.name}})
+  {{/each}}
 
 <!-- @end-scf-region -->
-
 
 <!-- @scf-region partials -->
 <!-- @scf-option { "appendStrategy": "replace" } -->
 
 {{#each partials}}
 
-## {{this.name}}
+## {{case "noCaseAndTitle" this.name}}
 
 ```
 USAGE
@@ -29,6 +29,7 @@ DESCRIPTION
 ```
 
 {{#if this.parameters}}
+
 <div class="mobile-side-scroller">
 <table>
   <thead>
@@ -54,6 +55,5 @@ DESCRIPTION
 {{/if}}
 
 {{/each}}
-
 
 <!-- @end-scf-region -->
