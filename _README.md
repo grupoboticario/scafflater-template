@@ -3,7 +3,7 @@
 [comment]: # '@scf-option  { "appendStrategy": "replace" }'
 [comment]: # '@scf-option  { "lineCommentTemplate": "<!-- {{comment}} -->" }'
 
-# {{case noCaseAndTitle parameters.name}} <!-- omit in toc -->
+# {{case "noCaseAndTitle" parameters.name}} <!-- omit in toc -->
 
 {{parameters.description}}
 
