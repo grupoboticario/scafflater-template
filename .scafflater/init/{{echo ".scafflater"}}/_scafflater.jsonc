@@ -1,4 +1,4 @@
-// @scf-option {"targetName": ".scafflater"}
+// @scf-option {"targetName": "scafflater.jsonc"}
 {
   "template": {
     "name": "{{parameters.name}}",

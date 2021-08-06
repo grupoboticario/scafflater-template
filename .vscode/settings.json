@@ -1,6 +1,3 @@
 {
-  "files.associations": {
-    ".scafflater": "jsonc"
-  },
   "editor.formatOnSave": true
 }

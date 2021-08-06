@@ -24,8 +24,8 @@ function loadPartialsOnTarget(context) {
   return new Promise(async (resolve, reject) => {
     // Including partials on context
     glob(
-      '/**/.scafflater',
-      { root: context.targetPath },
+      '**/scafflater.jsonc',
+      { root: context.targetPath, dot: true },
       async (err, files) => {
         if (err) reject(err);
 
