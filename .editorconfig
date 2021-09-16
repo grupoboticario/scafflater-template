@@ -1,3 +1,5 @@
+# @scf-option {"appendStrategy": "ignore"}
+
 # http://editorconfig.org
 root = true
 

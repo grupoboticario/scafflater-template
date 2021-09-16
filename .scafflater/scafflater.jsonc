@@ -11,10 +11,7 @@
         "**/*.test.js",
         "/package.json",
         "/package-lock.json",
-        "/README.md",
-        ".prettierrc",
-        ".editorconfig",
-        ".gitignore"
+        "/README.md"
       ]
     },
     "parameters": [
