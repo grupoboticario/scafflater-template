@@ -6,6 +6,7 @@
   "version": "1.0.0",
   "description": "{{parameters.description}}",
   "scripts": {
+    "update-readme": "scafflater-cli partial:run update-readme",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,7 +18,10 @@
     "scf-hooks",
     "scf-helpers"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "scafflater-cli": "^0.0.68"
+  }
   {{#if gitUser}}
   ,
   "author": "{{gitUser.user.name}} ({{gitUser.user.email}})"
