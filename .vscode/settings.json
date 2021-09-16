@@ -1,12 +1,6 @@
 // @scf-option { "appenders": ["./appenders/json-appender"] } -->
 
 {
-  "files.associations": {
-    ".prettierrc": "yaml"
-  },
-  "[handlebars]": {
-    "editor.formatOnSave": false
-  },
   "editor.formatOnSave": true,
   "files.exclude": {
     "**/.git": true,
