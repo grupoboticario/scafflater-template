@@ -4,7 +4,8 @@
   "description": "An template to generate scafflater templates",
   "scripts": {
     "update-readme": "scafflater-cli partial:run update-readme",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
-    "scafflater-cli": "^0.0.68"
+    "scafflater-cli": "^0.0.78",
+    "husky": "^7.0.0"
   }
 }
