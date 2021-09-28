@@ -1,3 +1,5 @@
+// @scf-option { "appenders": ["./appenders/json-appender"] } -->
+
 {
   "files.associations": {
     ".scafflater": "jsonc"
