@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "An template to generate scafflater templates",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update-readme": "scafflater-cli partial:run update-readme",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,8 @@
   "homepage": "https://github.com/chicoribas/scafflater-template#readme",
   "devDependencies": {
     "@types/jest": "^26.0.24",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "scafflater-cli": "^0.0.78",
+    "husky": "^7.0.0"
   }
 }

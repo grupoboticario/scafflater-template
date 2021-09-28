@@ -18,14 +18,15 @@ $ scafflater-cli init https://github.com/chicoribas/scafflater-template
 
 <!-- @scf-region partials-menu -->
 
-- [add-partial](#add-partial)
-- [update-readme](#update-readme)
+- [Add Partial](#add-partial)
+
+- [Update Readme](#update-readme)
 
 <!-- @end-scf-region -->
 
 <!-- @scf-region partials -->
 
-## add-partial
+## Add Partial
 
 ```
 USAGE
@@ -67,7 +68,7 @@ DESCRIPTION
 </table>
 </div>
 
-## update-readme
+## Update Readme
 
 ```
 USAGE
@@ -77,7 +78,7 @@ OPTIONS
   -p, --parameters=parameters  [default: ] The parameters to init template
 
 DESCRIPTION
-  Update the README.md file to refresh partials section
+  Update partials section of the README.md file
 ```
 
 <!-- @end-scf-region -->
