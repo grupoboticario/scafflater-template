@@ -17,8 +17,9 @@
     "scaffold"
   ],
   "workspaces": [
-    "hooks",
-    "helpers"
+    ".scafflater/hooks",
+    ".scafflater/helpers",
+    ".scafflater/extension"
   ],
   "author": "chicoribas (chico.bribas@gmail.com)",
   "license": "MIT",

@@ -2,7 +2,7 @@
 
 {
   "files.associations": {
-    ".scafflater": "jsonc"
+    ".prettierrc": "yaml"
   },
   "[handlebars]": {
     "editor.formatOnSave": false
