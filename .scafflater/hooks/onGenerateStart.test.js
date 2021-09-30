@@ -3,7 +3,7 @@ const path = require('path');
 
 test('Load Partial', async () => {
   // ARRANGE
-  const context = { targetPath: path.resolve(__dirname, '..') };
+  const context = {targetPath: path.resolve(__dirname, '..')};
 
   // ACT
   await onGenerateStart(context);
