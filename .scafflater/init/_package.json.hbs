@@ -1,10 +1,10 @@
-<!--@scf-option  { "targetName": "package.json" } -->
-<!--@scf-option  { "appenders": ["./appenders/json-appender"] } -->
+{{!-- @scf-option  { "targetName": "package.json" } --}}
+{{!-- @scf-option  { "appenders": ["./appenders/json-appender"] } --}}
 
 {
   "name": "{{parameters.name}}",
   "version": "1.0.0",
-  "description": "{{parameters.description}}",
+  "description": "{{parameters.description}}"
   {{#if gitUser}}
   ,
   "author": "{{gitUser.user.name}} ({{gitUser.user.email}})"
