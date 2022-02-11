@@ -11,9 +11,9 @@ test('Load Partial', async () => {
   // ASSERT
   expect(context.partials.length).toBeGreaterThan(0);
   expect(context.git.remote.origin.url).toBe(
-    'https://github.com/chicoribas/scafflater-template.git'
+    'https://github.com/scafflater/scafflater-template.git'
   );
   expect(context.git.html_url).toBe(
-    'https://github.com/chicoribas/scafflater-template'
+    'https://github.com/scafflater/scafflater-template'
   );
 });

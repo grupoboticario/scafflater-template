@@ -41,4 +41,4 @@ run `scafflater-cli partial:run update-readme` to generate the partials document
 
 ---
 
-> This template was generate using [Scafflater](https://github.com/chicoribas/scafflater)
+> This template was generate using [Scafflater](https://github.com/scafflater/scafflater)

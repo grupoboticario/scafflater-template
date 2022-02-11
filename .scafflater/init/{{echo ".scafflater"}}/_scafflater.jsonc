@@ -9,7 +9,7 @@
       "version": "0.0.1",
       "source": {
         "name": "github",
-        "key": "https://github.com/chicoribas/scafflater-template",
+        "key": "https://github.com/scafflater/scafflater-template",
         "github": {
           "baseUrl": "https://github.com",
           "baseUrlApi": "https://api.github.com"

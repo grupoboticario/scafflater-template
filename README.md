@@ -11,7 +11,7 @@ An Scafflater template to generate Scafflater templates
 
 ```sh-session
 $ npm install -g scafflater-cli
-$ scafflater-cli init https://github.com/chicoribas/scafflater-template
+$ scafflater-cli init https://github.com/scafflater/scafflater-template
 ```
 
 # Partials
