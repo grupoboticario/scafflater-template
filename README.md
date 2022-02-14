@@ -10,7 +10,7 @@ An Scafflater template to generate Scafflater templates
 # Initialize Template
 
 ```sh-session
-$ npm install -g scafflater-cli
+$ npm install -g @scafflater/scafflater-cli
 $ scafflater-cli init https://github.com/scafflater/scafflater-template
 ```
 
