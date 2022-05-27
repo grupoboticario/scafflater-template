@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/scafflater/scafflater-template#readme",
   "devDependencies": {
-    "@scafflater/scafflater-cli": "^0.0.101",
+    "@scafflater/scafflater-cli": "^1.0.3",
     "@types/jest": "^26.0.24",
     "husky": "^7.0.0",
     "jest": "^27.0.6"
