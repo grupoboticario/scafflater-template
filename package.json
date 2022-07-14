@@ -28,8 +28,8 @@
   "homepage": "https://github.com/scafflater/scafflater-template#readme",
   "devDependencies": {
     "@scafflater/scafflater-cli": "^1.0.4",
-    "@types/jest": "^27.5.1",
+    "@types/jest": "^28.1.5",
     "husky": "^8.0.1",
-    "jest": "^28.1.0"
+    "jest": "^28.1.3"
   }
 }
