@@ -10,9 +10,8 @@
         "package-lock.json",
         "package.json",
         "**/*.test.js",
-        "/package-lock.json",
-        "/package.json",
-        "/README.md"
+        "README.md",
+        ".scafflater/**/*"
       ]
     },
     "parameters": [

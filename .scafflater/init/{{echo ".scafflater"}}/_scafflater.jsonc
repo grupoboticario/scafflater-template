@@ -1,4 +1,5 @@
 // @scf-option {"targetName": "scafflater.jsonc"}
+// @scf-option  { "appenders": ["./appenders/json-appender"] }
 {
   "template": {
     "name": "{{parameters.name}}",
