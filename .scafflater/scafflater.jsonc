@@ -8,8 +8,10 @@
         ".git",
         "node_modules",
         "package-lock.json",
+        "package.json",
         "**/*.test.js",
         "/package-lock.json",
+        "/package.json",
         "/README.md"
       ]
     },
