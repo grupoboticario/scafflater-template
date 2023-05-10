@@ -2,7 +2,7 @@
   "template": {
     "name": "scafflater-template",
     "description": "An Scafflater template to generate Scafflater templates",
-    "version": "0.0.1",
+    "version": "a.0.1",
     "options": {
       "ignore": [
         ".git",
