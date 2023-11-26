@@ -4,6 +4,6 @@
     "git-config-path": "^2.0.0",
     "glob": "^7.1.7",
     "parse-git-config": "^3.0.0",
-    "strip-json-comments": "^3.1.1"
+    "strip-json-comments": "^5.0.1"
   }
 }
