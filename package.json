@@ -29,7 +29,7 @@
   "devDependencies": {
     "@scafflater/scafflater-cli": "^1.0.4",
     "@types/jest": "^27.5.1",
-    "husky": "^8.0.1",
+    "husky": "^9.0.11",
     "jest": "^28.1.0"
   }
 }
