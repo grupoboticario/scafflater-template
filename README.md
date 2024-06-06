@@ -7,11 +7,11 @@ An Scafflater template to generate Scafflater templates
   - [add-partial](#add-partial)
   - [update-readme](#update-readme)
 
-# Initialize Template
+## Initialize Template
 
-```sh-session
-$ npm install -g @scafflater/scafflater-cli
-$ scafflater-cli init https://github.com/scafflater/scafflater-template
+```bash
+npm install -g @scafflater/scafflater-cli
+scafflater-cli init https://github.com/scafflater/scafflater-template
 ```
 
 # Partials

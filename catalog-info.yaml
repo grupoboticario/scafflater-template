@@ -6,16 +6,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'scafflater-template'
-  description: 'An Scafflater template to generate Scafflater templates'
+  name: scafflater-template
+  description: An Scafflater template to generate Scafflater templates
   tags:
-    - 'scafflater'
+    - scafflater
   annotations:
-    github.com/project-slug: 'grupoboticario/scafflater-template'
-    github.com/team-slug: 'grupoboticario/alquimia'
+    github.com/project-slug: grupoboticario/scafflater-template
+    github.com/team-slug: grupoboticario/alquimia
 spec:
   type: service
-  lifecycle: 'production'
-  owner: 'alquimia'
-  system: 'alquimia'
-  domain: 'platform-engineering'
+  lifecycle: production
+  owner: alquimia
+  system: alquimia
+  domain: platform-engineering
