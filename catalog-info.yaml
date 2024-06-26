@@ -14,7 +14,7 @@ metadata:
     github.com/project-slug: grupoboticario/scafflater-template
     github.com/team-slug: grupoboticario/alquimia
 spec:
-  type: service
+  type: template
   lifecycle: production
   owner: alquimia
   system: alquimia
