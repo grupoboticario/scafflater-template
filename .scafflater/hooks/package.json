@@ -2,7 +2,7 @@
   "name": "scafflater-template-hooks",
   "dependencies": {
     "git-config-path": "^2.0.0",
-    "glob": "^10.4.1",
+    "glob": "^10.4.3",
     "parse-git-config": "^3.0.0",
     "strip-json-comments": "^5.0.1"
   }
